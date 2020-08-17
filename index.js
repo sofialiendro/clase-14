@@ -14,3 +14,21 @@ let funcionDeEjemplo = () => {
 } 
 
 funcionDeEjemplo()
+
+
+const decirNombre = (nombreDeProvincia) => {
+    alert(`Esta es una provincia del sur: ${nombreDeProvincia}.`)
+}
+
+decirNombre("Santa Cruz")
+decirNombre("Chubut")
+decirNombre("Tierra del Fuego")
+
+const decirNombreCompleto = (nombre, apellido) => {
+    alert(`Tu nombre completo es ${nombre} ${apellido}.`)
+}
+
+decirNombreCompleto("Britney", "Spears")
+decirNombreCompleto("Jennifer", "Aniston")
+decirNombreCompleto("Ryan", "Gosling")
+decirNombreCompleto("Sean", "Penn")
