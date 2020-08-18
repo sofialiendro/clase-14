@@ -5,6 +5,11 @@
 // alert (`Aquí tenés tu helado de ${gusto1}, ${gusto2} y ${gusto3}.`)
 
 
+
+//
+
+
+
 let funcionDeEjemplo = () => {
     let gusto1 = prompt("Decime tu gusto de helado favorito.")
     let gusto2 = prompt("Decime tu segundo gusto de helado favorito.")
@@ -14,6 +19,11 @@ let funcionDeEjemplo = () => {
 } 
 
 funcionDeEjemplo()
+
+
+
+//
+
 
 
 const decirNombre = (nombreDeProvincia) => {
@@ -32,3 +42,20 @@ decirNombreCompleto("Britney", "Spears")
 decirNombreCompleto("Jennifer", "Aniston")
 decirNombreCompleto("Ryan", "Gosling")
 decirNombreCompleto("Sean", "Penn")
+
+
+
+//
+
+
+
+const suma = (numero1, numero2) => {
+    const primerNumero = numero1 + 2 
+    const segundoNumero = numero2 * 3 
+    const resultado = primerNumero + segundoNumero
+    return resultado
+}
+
+let resultadoDeLaFuncion = suma(3, 3)
+
+alert(resultadoDeLaFuncion)
